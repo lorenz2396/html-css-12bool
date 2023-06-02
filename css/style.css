@@ -6,10 +6,26 @@
     box-sizing: border-box;
 }
 
+.container section > *{
+    margin: 5px;
+}
+
 .box{
     width: 100%;
     padding: 10px;
     background-color: red;
     border: 2px dashed black;
     color: white;
+    text-align: center;
+}
+
+.nested-box{
+    width: 100%;
+    padding: 10px;
+    background-color: blue;
+    border: 2px dashed black;
+    color: white;
+    text-align: center;
+    white-space: nowrap;
+    font-size: x-small;
 }
